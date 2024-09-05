@@ -63,6 +63,8 @@ gem 'active_storage_validations'
 gem 'faraday', '~> 1.10'
 gem 'faraday_middleware', '~> 1.2'
 
+gem "ruby_ci", github: "RubyCI/ruby_ci_gem", branch: "bugfix/188183739-increase-ruby-support"
+
 group :production, :devunicorn do
   gem 'unicorn-rails', '2.2.1'
   gem 'unicorn-worker-killer', '~> 0.4.5'
