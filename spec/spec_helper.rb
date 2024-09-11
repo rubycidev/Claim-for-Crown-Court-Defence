@@ -1,4 +1,5 @@
 ENV['ENV'] = 'test'
+require "ruby_ci"
 if ENV["RUBY_CI_SECRET_KEY"]
   require "rspec/core/runner"
   require "ruby_ci/runner_prepend"
